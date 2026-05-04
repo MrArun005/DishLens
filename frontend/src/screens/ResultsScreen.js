@@ -7,8 +7,8 @@ import Constants from 'expo-constants';
 import { Ionicons } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 
-// Using your Mac's exact Wi-Fi IP address from the Metro bundler logs!
-const API_URL = 'http://192.168.29.69:3001';
+// Pointing to your live production Render API!
+const API_URL = 'https://dishlens-be.onrender.com';
 
 const TAG_COLORS = {
   Veg:        { bg: '#E8F5E9', text: '#2E7D32' },
